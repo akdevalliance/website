@@ -4,13 +4,9 @@ This is the repository for the https://akdevalliance.com/
 
 ## Development
 
-### Prerequisites
-
-- Node (`v8.2.0` or higher)
-- [Gatsby CLI](https://www.gatsbyjs.org/docs/)
-- [Netlify CLI](https://github.com/netlify/cli)
-
 ### Clone & Run Locally
+
+Make sure you have `node v8.2.0` or higher installed.
 
 Pull down a local copy of the Github repository
 
@@ -18,6 +14,8 @@ Pull down a local copy of the Github repository
 $ git clone git@github.com:akdevalliance/website.git
 $ cd website
 $ yarn
+$ yarn add global gatsby-dev-cli
+$ yarn add global netlify-cli
 $ yarn build
 $ netlify dev
 ```
