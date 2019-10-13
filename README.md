@@ -13,14 +13,10 @@ Pull down a local copy of the Github repository
 ```
 $ git clone git@github.com:akdevalliance/website.git
 $ cd website
-$ yarn
 $ yarn add global gatsby-dev-cli
-$ yarn add global netlify-cli
-$ yarn build
-$ netlify dev
+$ yarn
+$ yarn start
 ```
-
-This uses the new [Netlify Dev](https://www.netlify.com/products/dev/?utm_source=blog&utm_medium=netlifycms&utm_campaign=devex) CLI feature to serve any functions you have in the `lambda` folder.
 
 ## Contributing
 

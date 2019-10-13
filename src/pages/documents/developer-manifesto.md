@@ -2,7 +2,7 @@
 templateKey: "document"
 title: "Developers Alliance Manifesto"
 date: 2019-10-12T23:41:10.000Z
-featuredpost: true
+featuredDocument: true
 description: >-
   The technology workforce in Alaska is stagnant and has stunted the businesses in the technology sector in Alaska. Programmers often leave the state citing "no jobs" while potential employers overlook Alaska due to "lack of talent." Previous attempts to build and promote a programming community have been implemented in a very focused or niche manner such as "web developers meetup" or "game developers" meetup. Due to Alaska's large land mass and low population density, none of these groups have been sustainable.
 ---

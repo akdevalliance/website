@@ -2,7 +2,7 @@
 templateKey: "document"
 title: "Code of Conduct"
 date: 2019-10-12T23:41:10.000Z
-featuredpost: true
+featuredDocument: true
 description: >-
   The Alaska Developers Alliance strives to be welcoming to all human beings regardless of age, body type, disability, ethnicity, education, socio-economic status, nationality, race, religion, gender identity, or sexual identity and orientation.
 ---

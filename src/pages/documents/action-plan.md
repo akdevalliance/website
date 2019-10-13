@@ -2,7 +2,7 @@
 templateKey: "document"
 title: "ACTION PLAN 2019"
 date: 2019-10-12T23:41:10.000Z
-featuredpost: true
+featuredDocument: true
 description: >-
   Build talent pool large enough to support building minimum viable products
   for startups and support startups growing rapidly.
