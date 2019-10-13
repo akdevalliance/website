@@ -5,7 +5,7 @@ image: /img/home-jumbotron.jpg
 heading: Alaska Dev Alliance
 subheading: Alaskan's building things for Alaskans
 mainpitch:
-  title: What is the Alaska Dev Alliance
+  title: What is the Alaska Dev Alliance?
   description: >
     The Alaska Developers Alliance is an organization focused on bringing together all segments of programmers from video game development and virtual reality to web development and enterprise software tooling. It was built as a community to get students plugged in earlier, provide continued learning opportunities for professionals, and inspire and educate the community.
 description: >-
