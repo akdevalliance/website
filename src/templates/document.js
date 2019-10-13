@@ -41,24 +41,24 @@ DocumentTemplate.propTypes = {
 };
 
 const Document = ({ data }) => {
-  const { markdownRemark: post } = data;
+  const { markdownRemark: document } = data;
 
   return (
     <Layout>
       <DocumentTemplate
-        content={post.html}
+        content={document.html}
         contentComponent={HTMLContent}
-        description={post.frontmatter.description}
+        description={document.frontmatter.description}
         helmet={
           <Helmet titleTemplate="%s | Blog">
-            <title>{`${post.frontmatter.title}`}</title>
+            <title>{`${document.frontmatter.title}`}</title>
             <meta
               name="description"
-              content={`${post.frontmatter.description}`}
+              content={`${document.frontmatter.description}`}
             />
           </Helmet>
         }
-        title={post.frontmatter.title}
+        title={document.frontmatter.title}
       />
     </Layout>
   );

@@ -2,7 +2,7 @@
 templateKey: "document"
 title: "WHITEPAPER 2019"
 date: 2019-10-12T23:41:10.000Z
-featuredpost: true
+featuredDocument: true
 description: >-
   The technology workforce in Alaska is stagnant and has stunted the businesses in
   the technology sector in Alaska. Programmers often leave the state citing "no jobs"

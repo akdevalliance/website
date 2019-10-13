@@ -2,7 +2,7 @@
 templateKey: "document"
 title: "Alaska Developers Alliance Operating Manual"
 date: 2019-10-12T23:41:10.000Z
-featuredpost: true
+featuredDocument: true
 description: >-
   This document serves as a repository for running the Alaska Developers Alliance. It describes the organizational structure, functional requirements for the board, budget, group promotion, running and hosting events and the necessary institutional knowledge that the group acquires.
 ---

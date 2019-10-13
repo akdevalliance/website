@@ -6,47 +6,47 @@ import PreviewCompatibleImage from "./PreviewCompatibleImage";
 class DocumentList extends React.Component {
   render() {
     const { data } = this.props;
-    const { edges: posts } = data.allMarkdownRemark;
+    const { edges: documents } = data.allMarkdownRemark;
 
     return (
       <div className="columns is-multiline">
-        {posts &&
-          posts.map(({ node: post }) => (
-            <div className="is-parent column is-6" key={post.id}>
+        {documents &&
+          documents.map(({ node: document }) => (
+            <div className="is-parent column is-6" key={document.id}>
               <article
                 className={`blog-list-item tile is-child box notification ${
-                  post.frontmatter.featuredpost ? "is-featured" : ""
+                  document.frontmatter.featuredDocument ? "is-featured" : ""
                 }`}
               >
                 <header>
-                  {!!post.frontmatter.featuredimage ? (
+                  {!!document.frontmatter.featuredImage ? (
                     <div className="featured-thumbnail">
                       <PreviewCompatibleImage
                         imageInfo={{
-                          image: post.frontmatter.featuredimage,
-                          alt: `featured image thumbnail for post ${post.title}`
+                          image: document.frontmatter.featuredImage,
+                          alt: `featured image thumbnail for document ${document.title}`
                         }}
                       />
                     </div>
                   ) : null}
-                  <p className="post-meta">
+                  <p className="document-meta">
                     <Link
                       className="title has-text-primary is-size-4"
-                      to={post.fields.slug}
+                      to={document.fields.slug}
                     >
-                      {post.frontmatter.title}
+                      {document.frontmatter.title}
                     </Link>
                     <span> &bull; </span>
                     <span className="subtitle is-size-5 is-block">
-                      {post.frontmatter.date}
+                      {document.frontmatter.date}
                     </span>
                   </p>
                 </header>
                 <p>
-                  {post.excerpt}
+                  {document.excerpt}
                   <br />
                   <br />
-                  <Link className="button" to={post.fields.slug}>
+                  <Link className="button" to={document.fields.slug}>
                     Keep Reading →
                   </Link>
                 </p>
@@ -85,7 +85,7 @@ export default () => (
                 title
                 templateKey
                 date(formatString: "MMMM DD, YYYY")
-                featuredpost
+                featuredDocument
               }
             }
           }
