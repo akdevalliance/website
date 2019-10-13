@@ -6,6 +6,25 @@ media_folder: static/img
 public_folder: /img
 
 collections:
+  - name: "leadership"
+    label: "Leadership"
+    folder: "src/pages/leadership"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Bio", name: "bio", widget: "text" }
+      - { label: "Created Date", name: "date", widget: "datetime" }
+      - { label: "Image", name: "image", widget: image }
+      - { label: "Index", name: "index", widget: "integer" }
+      - { label: "Name", name: "name", widget: "string" }
+      - { label: "Role", name: "roel", widget: "string" }
+      - {
+          label: "Template Key",
+          name: "templateKey",
+          widget: "hidden",
+          default: "leadership",
+        }
+
   - name: "blog"
     label: "Blog"
     folder: "src/pages/blog"
