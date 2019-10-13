@@ -18,7 +18,7 @@ intro:
     - image: /img/slack.svg
       text: >
         We Slack. Do you? Join our community conversation through the general channel or specialized tech topics or regions.
-    - image: /img/tutorials.png
+    - image: /img/youtube.svg
       text: >
         YouTube is the perfect venue for online learning. We're on YouTube as AK Dev TV.
     - image: /img/mailing.svg

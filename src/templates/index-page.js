@@ -41,6 +41,7 @@ export const IndexPageTemplate = ({
             boxShadow: "#2C5DC6 0.5rem 0px 0px, #2C5DC6 -0.5rem 0px 0px",
             backgroundColor: "#2C5DC6",
             color: "white",
+            fontFamily: "Cherry Creme Soda, cursive",
             lineHeight: "1",
             padding: "0.25em"
           }}
