@@ -1,54 +1,30 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
+title: Alaska Dev Alliance
 image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+heading: Alaska Dev Alliance
+subheading: Alaskan's building things for Alaskans
 mainpitch:
-  title: Why Kaldi
+  title: What is the Alaska Dev Alliance?
   description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+    The Alaska Developers Alliance is an organization focused on bringing together all segments of programmers from video game development and virtual reality to web development and enterprise software tooling. It was built as a community to get students plugged in earlier, provide continued learning opportunities for professionals, and inspire and educate the community.
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  The Alliance bridges the geography of Alaska with chapters in Juneau, Anchorage, and Fairbanks, along with specific groups like the VMWare users group joining under the umbrella. It currently has over 200 members and regularly has meetups digitally joining all three locations including more than 50 people and streaming live on Facebook. 
 intro:
   blurbs:
-    - image: /img/coffee.png
+    - image: /img/hackathon.svg
       text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
-    - image: /img/coffee-gear.png
+        Our first annual Hackathon took place in October 2019. We feel that hackathons and other meetups are the perfect way to meet others in our field and collaborate with new ideas to enhance skills.
+    - image: /img/slack.svg
       text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
-    - image: /img/tutorials.png
+        We Slack. Do you? Join our community conversation through the general channel or specialized tech topics or regions.
+    - image: /img/youtube.svg
       text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
-    - image: /img/meeting-space.png
+        YouTube is the perfect venue for online learning. We're on YouTube as AK Dev TV.
+    - image: /img/mailing.svg
       text: >
-        We believe that good coffee has the power to bring people together.
-        That’s why we decided to turn a corner of our shop into a cozy meeting
-        space where you can hang out with fellow coffee lovers and learn about
-        coffee making techniques. All of the artwork on display there is for
-        sale. The full price you pay goes to the artist.
-  heading: What we offer
+        Communication and knowledge sharing is important to us. We have a mailing list you can join to keep up on what's happening in our community across the state.
+  heading: Become a sponsor
   description: >
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone. This is an edit via identity...
+    Get in touch and come by one of our events to see what the Dev Alliance can do for your company and your work force.
 ---
