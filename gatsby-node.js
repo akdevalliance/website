@@ -32,11 +32,13 @@ exports.createPages = ({ actions, graphql }) => {
 
     documents.forEach(edge => {
       const id = edge.node.id;
+      const templateKey = String(edge.node.frontmatter.templateKey);
+
+      if (templateKey === "partner") return;
+
       createPage({
         path: edge.node.fields.slug,
-        component: path.resolve(
-          `src/templates/${String(edge.node.frontmatter.templateKey)}.js`
-        ),
+        component: path.resolve(`src/templates/${templateKey}.js`),
         // additional data can be passed via context
         context: {
           id
