@@ -1,7 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Link, graphql, StaticQuery } from "gatsby";
-import PreviewCompatibleImage from "./PreviewCompatibleImage";
 
 class DocumentList extends React.Component {
   render() {
@@ -14,21 +13,9 @@ class DocumentList extends React.Component {
           documents.map(({ node: document }) => (
             <div className="is-parent column is-6" key={document.id}>
               <article
-                className={`blog-list-item tile is-child box notification ${
-                  document.frontmatter.featuredDocument ? "is-featured" : ""
-                }`}
+                className={`blog-list-item tile is-child box notification`}
               >
                 <header>
-                  {!!document.frontmatter.featuredImage ? (
-                    <div className="featured-thumbnail">
-                      <PreviewCompatibleImage
-                        imageInfo={{
-                          image: document.frontmatter.featuredImage,
-                          alt: `featured image thumbnail for document ${document.title}`
-                        }}
-                      />
-                    </div>
-                  ) : null}
                   <p className="document-meta">
                     <Link
                       className="title has-text-primary is-size-4"
@@ -36,10 +23,6 @@ class DocumentList extends React.Component {
                     >
                       {document.frontmatter.title}
                     </Link>
-                    <span> &bull; </span>
-                    <span className="subtitle is-size-5 is-block">
-                      {document.frontmatter.date}
-                    </span>
                   </p>
                 </header>
                 <p>

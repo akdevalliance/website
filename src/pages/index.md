@@ -5,11 +5,9 @@ image: /img/home-jumbotron.jpg
 heading: Alaska Dev Alliance
 subheading: Alaskan's building things for Alaskans
 mainpitch:
-  title: What is the Alaska Dev Alliance?
+  title: The Alaska Dev Alliance
   description: >
-    The Alaska Developers Alliance is an organization focused on bringing together all segments of programmers from video game development and virtual reality to web development and enterprise software tooling. It was built as a community to get students plugged in earlier, provide continued learning opportunities for professionals, and inspire and educate the community.
-description: >-
-  The Alliance bridges the geography of Alaska with chapters in Juneau, Anchorage, and Fairbanks, along with specific groups like the VMWare users group joining under the umbrella. It currently has over 200 members and regularly has meetups digitally joining all three locations including more than 50 people and streaming live on Facebook. 
+    The Alaska Developers Alliance is an organization focused on bringing together all segments of programmers from video game development and virtual reality to web development and enterprise software tooling. It was built as a community to get students plugged in earlier, provide continued learning opportunities for professionals, and inspire and educate the community. The Alliance bridges the geography of Alaska with chapters in Juneau, Anchorage, and Fairbanks, along with specific groups like the VMWare users group joining under the umbrella. It currently has over 200 members and regularly has meetups  digitally joining all three locations including more than 50 people and streaming live on facebook.
 intro:
   blurbs:
     - image: /img/hackathon.svg
