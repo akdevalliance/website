@@ -41,7 +41,11 @@ const Navbar = class extends React.Component {
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Kaldi" style={{ width: "88px" }} />
+              <img
+                src={logo}
+                alt="Alaska Developers Alliance"
+                style={{ width: "88px" }}
+              />
             </Link>
             {/* Hamburger menu */}
             <div
@@ -58,21 +62,30 @@ const Navbar = class extends React.Component {
             id="navMenu"
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
-            <div className="navbar-start has-text-centered">
+            <div className="navbar-end has-text-centered">
+              <a
+                className="navbar-item"
+                href="http://slack.akdevalliance.com/"
+                style={{ color: "red", fontWeight: "bold" }}
+              >
+                Join Slack!
+              </a>
+              <a className="navbar-item" href="http://eepurl.com/du3UjT">
+                Get the Newsletter!
+              </a>
               <Link className="navbar-item" to="/calendar">
                 Calendar
+              </Link>
+              <Link className="navbar-item" to="/leadership">
+                Leadership
+              </Link>
+              <Link className="navbar-item" to="/partners">
+                Partners
               </Link>
               <Link className="navbar-item" to="/documents">
                 Guiding Documents
               </Link>
-              <Link className="navbar-item" to="/contact">
-                Contact
-              </Link>
-              <Link className="navbar-item" to="/contact/examples">
-                Form Examples
-              </Link>
             </div>
-            <div className="navbar-end has-text-centered"></div>
           </div>
         </div>
       </nav>
