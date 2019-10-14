@@ -32,7 +32,7 @@ export const IndexPageTemplate = ({
           flexDirection: "column"
         }}
       >
-        <img src="/img/codi-the-yeti.png" />
+        <img src="/img/codi-the-yeti.png" alt="Codi the Yeti" />
       </div>
     </div>
     <section className="section section--gradient">
