@@ -13,7 +13,7 @@ Pull down a local copy of the Github repository
 ```
 $ git clone git@github.com:akdevalliance/website.git
 $ cd website
-$ yarn add global gatsby-dev-cli
+$ yarn global add gatsby-dev-cli
 $ yarn
 $ yarn start
 ```
