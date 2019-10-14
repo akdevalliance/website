@@ -73,6 +73,9 @@ const Navbar = class extends React.Component {
               <a className="navbar-item" href="http://eepurl.com/du3UjT">
                 Get the Newsletter!
               </a>
+              <Link className="navbar-item" to="/calendar">
+                Calendar
+              </Link>
               <Link className="navbar-item" to="/leadership">
                 Leadership
               </Link>
