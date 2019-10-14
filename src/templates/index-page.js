@@ -18,9 +18,6 @@ export const IndexPageTemplate = ({
     <div
       className="full-width-image margin-top-0"
       style={{
-        backgroundImage: `url(${
-          !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-        })`,
         backgroundPosition: `top left`,
         backgroundAttachment: `fixed`
       }}
@@ -35,30 +32,7 @@ export const IndexPageTemplate = ({
           flexDirection: "column"
         }}
       >
-        <h1
-          className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
-          style={{
-            boxShadow: "#2C5DC6 0.5rem 0px 0px, #2C5DC6 -0.5rem 0px 0px",
-            backgroundColor: "#2C5DC6",
-            color: "white",
-            lineHeight: "1",
-            padding: "0.25em"
-          }}
-        >
-          {title}
-        </h1>
-        <h2
-          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
-          style={{
-            boxShadow: "#2C5DC6 0.5rem 0px 0px, #2C5DC6 -0.5rem 0px 0px",
-            backgroundColor: "#2C5DC6",
-            color: "white",
-            lineHeight: "1",
-            padding: "0.25em"
-          }}
-        >
-          {subheading}
-        </h2>
+        <img src="/img/codi-the-yeti.png" />
       </div>
     </div>
     <section className="section section--gradient">
@@ -72,15 +46,7 @@ export const IndexPageTemplate = ({
                     <h1 className="title">{mainpitch.title}</h1>
                   </div>
                   <div className="tile">
-                    <h2 className="subtitle">{mainpitch.description}</h2>
-                  </div>
-                </div>
-                <div className="columns">
-                  <div className="column is-12">
-                    <h2 className="has-text-weight-semibold is-size-2">
-                      {heading}
-                    </h2>
-                    <p>{description}</p>
+                    <p className="subtitle">{mainpitch.description}</p>
                   </div>
                 </div>
                 <Features gridItems={intro.blurbs} />
